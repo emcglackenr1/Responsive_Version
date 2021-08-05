@@ -1,12 +1,14 @@
 <h1> Portfolio responsive version </h1>
 <b> * Work in Progress * </b>
 
-This is a basic demo of the progress of making the portfolio website responsive. 
+This is a basic demo of how I am changing the portfolio website to make it responsive.
 
 This version uses jquery and streamlined and simplified CSS and HTML. 
 
 The current version can be seen here:
 
 https://emcglackenr1.github.io/Responsive_Version/
+
+I have learned a lot since I originally wrote most of the code for the portfolio website, so I wanted to apply some of the new knowledge and techniques I have learned to improve the project.
 
 It is still a work in progress so the other pages are still to be changed.
