@@ -1,5 +1,5 @@
 <h1> Portfolio responsive version </h1>
-<b> * Work in Progress * </b>
+
 
 This is a basic demo of how I am changing the portfolio website to make it responsive.
 
