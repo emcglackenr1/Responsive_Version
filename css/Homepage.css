@@ -1,0 +1,219 @@
+html, body, div, span, h2, h4, h5, h6, p,
+img, ul, li, footer, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'Roboto', sans-serif;
+  text-decoration-color: #fff;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+a img {
+  border: none;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #101214;
+}
+
+h1 {
+  font-size: 2.25em;
+  padding: 0 1em;
+  font-style: italic;
+  color: rgb(228, 228, 228);
+}
+
+h3 {
+  color: rgb(87, 86, 86);
+  padding: 0 1em;
+  padding: 0em 0em 0em;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.subhead {
+  padding: 0;
+  text-decoration-color:  rgb(87, 86, 86);
+}
+
+.padDown {
+  padding: 0.5em 0em 0.5em;
+  text-decoration-color: #fff;
+}
+
+.outer {
+  padding: 20px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.inner {
+  display: inline-block;
+  padding: 30px;
+}
+
+.logo {
+  -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+/* Animations */
+
+.loadanimation {
+  animation: 1s ease-in-out both fadeIn;
+}
+
+.loadanimation2 {
+  animation: 1s ease-in-out both fadeInRight;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+
+.tile {
+  animation: 1s ease-in-out both fadeIn;
+}
+
+.tile:nth-child(1) {
+  animation-delay: 6s;
+}
+
+.tile:nth-child(2) {
+  animation-delay: 6s;
+}
+
+.tile:nth-child(3) {
+  animation-delay: 6s;
+}
+
+
+@keyframes fade-in {
+  0% {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+  }
+  
+  100% {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+  }
+}
+
+/* Animations End */
+
+.social li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin: .5em;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.social li:hover {
+  -moz-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+  color: white;
+}
+
+.social li:before {
+  position: absolute;
+  width: 2em;
+  margin-left: -1em;
+  top: 1.5em;
+  left: 50%;
+}
+
+.social li a {
+  display: block;
+  color: inherit;
+  padding: 1em 1em 1em;
+  width: 6em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.icon-email {
+  color:#1f4e1f;
+}
+
+.icon-email:hover {
+  background:#1f4e1f;
+}
+
+.icon-about {
+  color:#aa4313;
+}
+
+.icon-about:hover {
+  background:#aa4313;
+}
+
+.icon-work {
+  color: #69287c;
+}
+
+.icon-work:hover {
+  background:#69287c;
+}
+
+
+
+
+
+
+ 

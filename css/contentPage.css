@@ -1,0 +1,35 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
+body {
+    display: flex;  
+    flex-direction: column;
+    padding-top: 56px;  
+    min-height: 100vh;  
+    text-align: center;
+    background-color: #101214;
+  }
+  
+  main {
+    flex: 1;  
+ }
+
+ .container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+ }
+
+#workHome img{
+    width: 100%;  /* fit the image within the div */
+    height: 100%;
+    margin: 5px 5px;
+    border-radius: 25px;
+    padding-bottom: 5%;
+  }
+
+  #workHome img:hover {
+   filter:invert(10%);  /* change color when hover over image */
+} /* Consider adding text that appears when you hover over the image */

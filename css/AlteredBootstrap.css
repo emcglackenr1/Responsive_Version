@@ -1,0 +1,50 @@
+/*  */
+
+.nav-item-work {
+    text-decoration-color: #69287c;
+
+    
+}
+
+.nav-item-about {
+    text-decoration-color: #aa4313;
+}
+
+.nav-item-contact {
+    text-decoration-color: #1f4e1f;
+}
+
+
+.nav-link-test {
+    display:block;padding:.5rem 1rem;
+    padding-right:0;padding-left:0;
+    color:#fff;
+    border:1px solid transparent;border-top-left-radius:.25rem;border-top-right-radius:.25rem;
+}
+
+.nav-link-test:focus {
+    text-decoration:none;
+    color:rgba(255,255,255,.76);
+
+}
+
+.nav-link-test:hover {
+    text-decoration:none;
+    color:rgba(255,255,255,.76);
+}
+
+.nav-link-test.active, .show>.nav-link{color:#ff;background-color:#007bff}
+
+/*  
+
+.nav-link {display:block;padding:.5rem 1rem}
+.nav-link:focus,.nav-link:hover(text-decoration:none)
+.nav-link{border:1px solid transparent;border-top-left-radius:.25rem;border-top-right-radius:.25rem}
+.nav-link.active, .show>.nav-link{color:#ff;background-color:#007bff}
+.nav-link{padding-right:0;padding-left:0}
+.nav-link{padding-right:.5rem;padding-left:.5rem}
+.nav-link:hover,.nav-link.active{color:rgba(0.0.0,.9)}
+.nav-link:focus,.nav-link:hover{color:rgba(255,255,255,.76)}
+.nav-link{color:#fff}
+
+*/
