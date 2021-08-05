@@ -5,7 +5,7 @@ This is a basic demo of how I am changing the portfolio website to make it respo
 
 The current version can be seen here:
 
-https://emcglackenr1.github.io/Responsive_Version/
+https://emcglackenr1.github.io/Responsive_Version/work.html
 
 This version will use jquery, as well as streamlined and simplified CSS and HTML. 
 
