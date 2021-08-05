@@ -1,4 +1,5 @@
-<h1> Portfolio work page responsive version demo </h1>
+<h1> Portfolio responsive version </h1>
+<b> * Work in Progress * </b>
 
 This is a basic demo of the progress of making the portfolio website responsive. 
 
