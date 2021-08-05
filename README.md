@@ -1,4 +1,4 @@
-<h1> Portfolio responsive version </h1>
+<h1> Portfolio - Responsive Version </h1>
 
 
 This is a basic demo of how I am changing the portfolio website to make it responsive.
